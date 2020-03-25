@@ -21,10 +21,10 @@ class NavBar extends Component{
                         <Link to="/sierra_portfolio">Home</Link>
                         </li>
                         <li>
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/sierra_portfolio/contact">Contact</Link>
                         </li>
                         <li>
-                            <Link to="/work">Work</Link>
+                            <Link to="/sierra_portfolio/work">Work</Link>
                         </li>
                     </ul>
                     
@@ -32,10 +32,10 @@ class NavBar extends Component{
                     <Route exact path="/sierra_portfolio">
                         <Home />
                     </Route>
-                    <Route path="/contact">
+                    <Route path="/sierra_portfolio/contact">
                         <Contact />
                     </Route>
-                    <Route path="/work">
+                    <Route path="/sierra_portfolio/work">
                         <Work />
                     </Route>
                     </Switch>
