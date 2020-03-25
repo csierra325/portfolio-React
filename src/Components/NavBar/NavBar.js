@@ -18,7 +18,7 @@ class NavBar extends Component{
                 <div>
                     <ul className="NavBar">
                         <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/sierra_portfolio">Home</Link>
                         </li>
                         <li>
                             <Link to="/contact">Contact</Link>
@@ -29,7 +29,7 @@ class NavBar extends Component{
                     </ul>
                     
                     <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/sierra_portfolio">
                         <Home />
                     </Route>
                     <Route path="/contact">
