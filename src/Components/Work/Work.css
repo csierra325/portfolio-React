@@ -1,0 +1,16 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Container .project{
+  padding: 1em;
+}
+
+.Container .project img{
+    width: 320px;
+    height: 220px;
+    padding: 1em;
+}
