@@ -9,8 +9,22 @@
   padding: 1em;
 }
 
+.Container .project img:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 1.3s;
+  transform: scale(1.1);
+  z-index: 5;
+}
+
 .Container .project img{
     width: 320px;
     height: 220px;
     padding: 1em;
+}
+
+.project-header{
+  padding: 1em 0 1em 0;
+  color: #eee;
+  font-weight: bold;
+  font-size: 2.4em;
 }

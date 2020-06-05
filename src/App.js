@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="Footer">
-      <Footer />
+      {/* <Footer /> */}
       </div>
     </div>
   );

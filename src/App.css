@@ -24,6 +24,11 @@
   }
 }
 
+body{
+  background-color:#9c3f3f;
+  background-image: url("./Images/blizzard.png");
+}
+
 .Footer{
   border-top: 4px solid black;
   background-color: #b48484;
@@ -41,7 +46,7 @@
 } 
 
 h1{
-  color: #777777;
+  color: #eee;
   text-decoration: underline;
 
 }

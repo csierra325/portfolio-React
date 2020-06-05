@@ -1,6 +1,8 @@
 
 .NavBar{
-    background-color: #b48484;
+    /* background-color: #b48484; */
+    background-color: #ffffff;
+    border-bottom: 2px solid rgb(141, 141, 141);
   }
   
   li {
@@ -9,7 +11,8 @@
   
   li a {
     display: block;
-    color:black;
+    /* color:#b48484; */
+    color: #9c3f3f;
     font-weight: 700;
     text-align: center;
     padding: 14px 16px;
@@ -17,7 +20,9 @@
   }
   
   li a:hover {
-    background-color:rgb(179, 151, 151)
+    /* background-color:rgb(179, 151, 151) */
+    /* color: #d8d8d8ad; */
+    color:#9c3f3faf;
   }
   ul {
     list-style-type: none;

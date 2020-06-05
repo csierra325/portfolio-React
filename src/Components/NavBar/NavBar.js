@@ -8,7 +8,7 @@ import {
 import './NavBar.css'; 
 import Work from '../Work/Work';
 import Contact from '../Contact';
-import Home from '../Home'
+import Home from '../Home/Home'
 
 
 class NavBar extends Component{

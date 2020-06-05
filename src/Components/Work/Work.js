@@ -11,7 +11,7 @@ class Work extends Component{
     render(){
         return(
             <div>
-                <h1>Work Page</h1>
+                <div className="project-header">My Projects</div>
                 <div className="Container">
                     <div className="project"><img src={PetPro} alt="Pet Pro"/></div>
                     <div className="project"><img src={Giphy} alt="Giphy App"/></div>
