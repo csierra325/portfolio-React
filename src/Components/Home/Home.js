@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Camille from '../../Images/camille.jpg';
-import './home.css'
+import './Home.css'
 
 class Home extends Component{
     
