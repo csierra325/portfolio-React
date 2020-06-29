@@ -1,0 +1,17 @@
+.contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-items {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.contact-item {
+    color: #9d4343;
+    font-weight: 900;
+    padding: 20px;
+}

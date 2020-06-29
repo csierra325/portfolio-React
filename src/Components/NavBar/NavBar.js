@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './NavBar.css'; 
 import Work from '../Work/Work';
-import Contact from '../Contact';
+import Contact from '../Contact/Contact';
 import Home from '../Home/Home'
 
 
