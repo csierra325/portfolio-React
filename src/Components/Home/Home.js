@@ -17,7 +17,7 @@ class Home extends Component{
                     </div>
                     <img className="portrait" src={Camille}  alt="Camille"/>
                 </div>
-                <div className="topleft"></div>
+                {/* <button className="topleft">My Work</button> */}
             </div>
         )
     }

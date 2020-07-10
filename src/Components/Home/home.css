@@ -25,6 +25,14 @@
     font-family: sans-serif;
 }
 
+button.topleft {
+    border-radius: 15px;
+    padding: 18px;
+    color: black;
+    width: 126px;
+    font-weight: bold;
+}
+
 .home-header{
     padding: 2em 0 1.2em 0;
     color: #eee;
