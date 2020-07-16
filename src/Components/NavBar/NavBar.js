@@ -18,24 +18,24 @@ class NavBar extends Component{
                 <div>
                     <ul className="NavBar">
                         <li>
-                        <Link to="/sierra_portfolio">Home</Link>
+                        <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/sierra_portfolio/contact">Contact</Link>
+                            <Link to="/portfolio-React//contact">Contact</Link>
                         </li>
                         <li>
-                            <Link to="/sierra_portfolio/work">Work</Link>
+                            <Link to="/portfolio-React//work">Work</Link>
                         </li>
                     </ul>
                     
                     <Switch>
-                    <Route exact path="/sierra_portfolio">
+                    <Route exact path="/">
                         <Home />
                     </Route>
-                    <Route path="/sierra_portfolio/contact">
+                    <Route path="/portfolio-React//contact">
                         <Contact />
                     </Route>
-                    <Route path="/sierra_portfolio/work">
+                    <Route path="/portfolio-React/work">
                         <Work />
                     </Route>
                     </Switch>
